@@ -13,7 +13,7 @@ const tokens: string[] = [
   'review',
 ];
 
-const verifyGatewayRequest = (
+export const verifyGatewayRequest = (
   req: Request,
   res: Response,
   next: NextFunction
